@@ -2,7 +2,7 @@
 
 
 Fetching data in R:
-'''
+```
 healthy_hmp <- sampleMetadata |>
   filter(study_name == "HMP_2019_ibdmdb") |>
   filter(disease == "healthy") |>
@@ -22,4 +22,4 @@ healthy <- t(healthy_hmp@assays@data@listData[["relative_abundance"]])
 write.csv(ibd, "~/Code/R/curatedMetagenomicData/ibd_rel_abundance.csv", row.names=FALSE)
 
 write.csv(healthy, "~/Code/R/curatedMetagenomicData/healthy_rel_abundance.csv", row.names=FALSE)
-'''
+```
