@@ -2,7 +2,7 @@
 
 
 Fetching data in R:
-```
+```R
 healthy_hmp <- sampleMetadata |>
   filter(study_name == "HMP_2019_ibdmdb") |>
   filter(disease == "healthy") |>
