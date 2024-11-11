@@ -1,5 +1,6 @@
 # Predicting Microbiome-Phenotype Associations in the Human Gut
 
+#### See the [blog post](https://wvirany.github.io/posts/microbiome).
 ---
 
 ## Data
